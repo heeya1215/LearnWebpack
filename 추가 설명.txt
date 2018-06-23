@@ -1,12 +1,13 @@
-﻿@ Webpack 소개 - [개발환경] Webpack 개발환경 설정 : Atom, Chrome, Node.js, NPM, Github 설치
+﻿@ Webpack 소개 
+$ [개발환경] Webpack 개발환경 설정 : Atom, Chrome, Node.js, NPM, Github 설치
 인프런 Vue.js 강의 링크 (개발환경쪽 영상은 결제하지 않아도 미리보기 가능합니다) https://www.inflearn.com/course/vue-pwa-vue-js-%EA%B8%B0%EB%B3%B8/
 아톰 공식 사이트 https://atom.io/
 Node.js 공식 사이트 https://nodejs.org/en/
 Chrome 브라우저 https://www.google.co.kr/chrome/browser/desktop/index.html
 
-@ Webpack 소개 - [실습] Webpack 시작하기
+@ Webpack 소개
+$ [실습] Webpack 시작하기
 github 리파지토리 : https://github.com/joshua1988/LearnWebpack
-
 
 * Webpack 4 변경으로 인한 문제
    webpack 명령어 시 에러 발생
@@ -15,5 +16,18 @@ github 리파지토리 : https://github.com/joshua1988/LearnWebpack
     해결 방법 2 => $ webpack app/index.js --output dist/bundle.js --mode development
 
 
+@ Webpack Output
+$ [부록] path.join() & path.resolve() 소개
+Node Path 공식 문서 : https://nodejs.org/api/path.htm
 
-Node Path 공식 문서 : https://nodejs.org/api/path.html
+@ Webpack Loader
+$Loader 소개
+expose-loader	: https://www.npmjs.com/package/expose-loader
+Imports-loader	: https://github.com/webpack-contrib/imports-loader
+Loaders 더 많은 설정 보기	: https://webpack.js.org/concepts/loaders/
+
+$Babel Loader
+Babel 공식 사이트 : https://babeljs.io/
+
+%[실습] CSS Code Splitting 1/2
+ExractTextWebpackPlugin	: https://webpack.js.org/plugins/extract-text-webpack-plugin/
