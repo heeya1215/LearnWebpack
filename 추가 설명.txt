@@ -21,13 +21,29 @@ $ [부록] path.join() & path.resolve() 소개
 Node Path 공식 문서 : https://nodejs.org/api/path.htm
 
 @ Webpack Loader
-$Loader 소개
+$ Loader 소개
 expose-loader	: https://www.npmjs.com/package/expose-loader
 Imports-loader	: https://github.com/webpack-contrib/imports-loader
 Loaders 더 많은 설정 보기	: https://webpack.js.org/concepts/loaders/
 
-$Babel Loader
+$ Babel Loader
 Babel 공식 사이트 : https://babeljs.io/
 
 %[실습] CSS Code Splitting 1/2
 ExractTextWebpackPlugin	: https://webpack.js.org/plugins/extract-text-webpack-plugin/
+
+
+@ Webpack Plugins
+$ Plugin 소개
+플러그인 종류	: https://www.inflearn.com/course-status-2/
+
+$ Plugin 종류
+Provide Plugin	: 삭제됨
+Define Plugin	: 삭제됨
+Manifest Plugin	: https://github.com/danethurber/webpack-manifest-plugin
+
+$ [실습] Libraries Codes Splitting 1 – Bundling libraries
+Moment.js 공식 사이트	: https://momentjs.com/
+Lodash.js 공식 사이트	: https://lodash.com/
+
+
