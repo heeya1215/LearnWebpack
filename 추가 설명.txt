@@ -46,4 +46,8 @@ $ [실습] Libraries Codes Splitting 1 – Bundling libraries
 Moment.js 공식 사이트	: https://momentjs.com/
 Lodash.js 공식 사이트	: https://lodash.com/
 
+$ [실습] Libraries Codes Splitting 2 – Common Chunks Plugin
+Common Chunks Plugin 더 알아보기	: https://joshua1988.github.io/web-development/webpack/common-chunk-plugin/
+** Webpack 4에서 Common Chunks Plugin 없어짐 => splitChunks로 대체 : https://github.com/webpack/webpack/issues/6626
+
 
