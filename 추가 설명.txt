@@ -53,3 +53,37 @@ Common Chunks Plugin 더 알아보기	: https://joshua1988.github.io/web-develop
 
 @ Webpack Resolve
 N/A
+
+
+@ Webpack Dev Server
+
+$ Webpack Dev Server 소개
+Webpack Dev Server 추가옵션 : https://webpack.js.org/configuration/dev-server/
+
+$ Webpack Dev Server Option
+Gzip 압축 : https://ko.wikipedia.org/wiki/Gzip
+
+$ [실습] Webpack Dev Server 1 – Server 구성 및 실행
+
+
+$ [실습] Webpack Dev Server 2 – Dev Server 인메모리 컴파일의 특징
+Compile in memory : https://webpack.js.org/ 에서 검색
+
+
+@ Webpack Dev Middleware
+
+$ Webpack Dev Middleware 소개
+Middleware 란? : https://ko.wikipedia.org/wiki/%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4
+Wrapper 란? : https://ko.wikipedia.org/wiki/%EB%9E%98%ED%8D%BC_%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC
+Node.js : https://en.wikipedia.org/wiki/Node.js
+Express 프레임워크 : http://expressjs.com/ko/
+
+$ [실습] Webpack Dev Middleware – Node.js로 로컬 서버 구성
+Webpack Dev Middleware(튜토리얼 링크) : https://github.com/joshua1988/LearnWebpack#example-5---webpack-dev-middleware
+Node Path 공식 문서 : https://nodejs.org/api/path.html
+EJS : http://ejs.co/
+템플릿 엔진 : https://en.wikipedia.org/wiki/Web_template_system
+
+$ [실습] Webpack Dev Middleware
+Webpack Dev Middleware (공식 사이트 구버전) : deprecated
+Webpack Dev Middleware (공식 사이트 최신) : https://webpack.js.org/guides/development/#using-webpack-dev-middleware
