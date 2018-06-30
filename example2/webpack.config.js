@@ -3,6 +3,7 @@ var ManifestPlugin = require('webpack-manifest-plugin');
 var path = require('path');
 
 module.exports = {
+  mode: 'development',
   entry: {
     main: './src/index.js',
     vendor: [
@@ -33,6 +34,5 @@ module.exports = {
       fileName: 'manifest.json',
       basePath: './dist/'
     }),
-  ],
-  mode: 'production'
+  ]
 }

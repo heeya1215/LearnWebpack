@@ -1,4 +1,4 @@
-﻿@ Webpack 소개 
+﻿@ Webpack 소개
 $ [개발환경] Webpack 개발환경 설정 : Atom, Chrome, Node.js, NPM, Github 설치
 인프런 Vue.js 강의 링크 (개발환경쪽 영상은 결제하지 않아도 미리보기 가능합니다) https://www.inflearn.com/course/vue-pwa-vue-js-%EA%B8%B0%EB%B3%B8/
 아톰 공식 사이트 https://atom.io/
@@ -11,7 +11,7 @@ github 리파지토리 : https://github.com/joshua1988/LearnWebpack
 
 * Webpack 4 변경으로 인한 문제
    webpack 명령어 시 에러 발생
-    $ webpack app/index.js dist/bundle.js 
+    $ webpack app/index.js dist/bundle.js
     해결 방법 1 => app 폴더 이름 변경 -> src
     해결 방법 2 => $ webpack app/index.js --output dist/bundle.js --mode development
 
@@ -51,3 +51,5 @@ Common Chunks Plugin 더 알아보기	: https://joshua1988.github.io/web-develop
 ** Webpack 4에서 Common Chunks Plugin 없어짐 => splitChunks로 대체 : https://github.com/webpack/webpack/issues/6626
 
 
+@ Webpack Resolve
+N/A
