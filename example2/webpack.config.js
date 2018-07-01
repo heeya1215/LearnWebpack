@@ -1,6 +1,7 @@
 var webpack = require('webpack');
 var ManifestPlugin = require('webpack-manifest-plugin');
 var path = require('path');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -12,7 +13,7 @@ module.exports = {
     ]
   },
   output: {
-    filename: '[name].js',
+    filename: '[name].[chunkhash].js',
     path: path.resolve(__dirname, 'dist')
   },
   optimization: {
@@ -34,5 +35,10 @@ module.exports = {
       fileName: 'manifest.json',
       basePath: './dist/'
     }),
+    // htmlWebpackPlugin을 쓰면 html 파일 복사 및 js, css inject를 할 수 있다.
+    // 물론 minify도 가능하다.
+    new HtmlWebpackPlugin({
+      template: 'index.html'
+    })
   ]
 }
