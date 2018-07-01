@@ -12,7 +12,7 @@ module.exports = {
   // #2 - Using alias
   // resolve: {
   //   alias: {
-  //     Vendor: path.resolve(__dirname, './app/vendor/')
+  //     AliasVendor: path.resolve(__dirname, './app/vendor/')
   //   }
   // }
 
