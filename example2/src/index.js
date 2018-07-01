@@ -1,4 +1,4 @@
-var moment = from('moment');
+var moment = require('moment');
 var _ = require('lodash');
 var ele = document.querySelectorAll('p');
 
